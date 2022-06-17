@@ -9,7 +9,11 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="/img/favicon.ico" />
-        <meta name="descrition" content="A simple project to learn React" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta
+          name="descrition"
+          content="A simple project starter to work with Typescript, React, NextJS and Styled Components"
+        />
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
